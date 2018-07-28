@@ -1,25 +1,12 @@
-/*$color-primary:#55c57a;
-$color-primary-light:#7ed56f;
-$color-primary-dark:#28b485;
-
-$color-grey-dark: #777;
-$color-white: #fff;
-$color-black: #000;
-*/
 
 @import "abstracts/functions";
-
 @import "abstracts/variables";
-
 @import "abstracts/mixins";
 
 
 @import "base/base";
-
 @import "base/animation";
-
 @import "base/typograpgy";
-
 @import "base/utilities";
 
 
@@ -30,10 +17,12 @@ $color-black: #000;
 @import "components/story";
 @import "components/bg-video";
 @import "components/form";
+@import "components/popup";
 
 @import "layout/header";
-
 @import "layout/grid";
+@import "layout/footer";
+@import "layout/navigation";
 
 
 @import "pages/home";
